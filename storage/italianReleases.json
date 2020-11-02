@@ -1,0 +1,48 @@
+[
+    {
+        "albumName": "Prova",
+        "artistName": "Tizio",
+        "genre": "rap",
+        "releaseDate": "20-10-2020",
+        "urlSpoty": "asdasdasdads"
+    },
+    {
+        "albumName": "RIOT",
+        "artistName": "Izi",
+        "genre": [
+            "indie liguria",
+            "italian hip hop",
+            "trap italiana"
+        ],
+        "releaseDate": "2020-10-30",
+        "urlSpoty": "https://open.spotify.com/album/3iT9nm6Y0s0peiRwFKLA7f"
+    },
+    {
+        "albumName": "X FACTOR MIXTAPE 2020",
+        "artistName": "Various Artists",
+        "genre": "Unknown",
+        "releaseDate": "2020-10-30",
+        "urlSpoty": "https://open.spotify.com/album/0b5tJeWdaTVyQ5kOJVJm62"
+    },
+    {
+        "albumName": "Anima Mundi",
+        "artistName": "Axos",
+        "genre": [
+            "italian hip hop",
+            "italian indie pop",
+            "trap italiana"
+        ],
+        "releaseDate": "2020-10-29",
+        "urlSpoty": "https://open.spotify.com/album/4IJjj5J0czlB9pdqyLFYK4"
+    },
+    {
+        "albumName": "Lacrime",
+        "artistName": "Samurai Jay",
+        "genre": [
+            "italian hip hop",
+            "trap italiana"
+        ],
+        "releaseDate": "2020-10-22",
+        "urlSpoty": "https://open.spotify.com/album/15c6QehX6DCG353ITVkqTn"
+    }
+]

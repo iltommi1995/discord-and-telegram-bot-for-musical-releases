@@ -1,0 +1,85 @@
+[
+    {
+        "albumName": "Prova",
+        "artistName": "Tizio",
+        "genre": "rap",
+        "releaseDate": "20-10-2020",
+        "urlSpoty": "asdasdasdads"
+    },
+    {
+        "albumName": "RIOT",
+        "artistName": "Izi",
+        "genre": [
+            "indie liguria",
+            "italian hip hop",
+            "trap italiana"
+        ],
+        "releaseDate": "2020-10-30",
+        "urlSpoty": "https://open.spotify.com/album/3iT9nm6Y0s0peiRwFKLA7f"
+    },
+    {
+        "albumName": "X FACTOR MIXTAPE 2020",
+        "artistName": "Various Artists",
+        "genre": "Unknown",
+        "releaseDate": "2020-10-30",
+        "urlSpoty": "https://open.spotify.com/album/0b5tJeWdaTVyQ5kOJVJm62"
+    },
+    {
+        "albumName": "Made In Lagos",
+        "artistName": "WizKid",
+        "genre": [
+            "afro dancehall",
+            "afropop",
+            "azonto",
+            "nigerian hip hop",
+            "nigerian pop"
+        ],
+        "releaseDate": "2020-10-29",
+        "urlSpoty": "https://open.spotify.com/album/6HpMdN52TfJAwVbmkrFeBN"
+    },
+    {
+        "albumName": "Anima Mundi",
+        "artistName": "Axos",
+        "genre": [
+            "italian hip hop",
+            "italian indie pop",
+            "trap italiana"
+        ],
+        "releaseDate": "2020-10-29",
+        "urlSpoty": "https://open.spotify.com/album/4IJjj5J0czlB9pdqyLFYK4"
+    },
+    {
+        "albumName": "Song Machine, Season One: Strange Timez (Deluxe)",
+        "artistName": "Gorillaz",
+        "genre": [
+            "alternative hip hop",
+            "art pop"
+        ],
+        "releaseDate": "2020-10-23",
+        "urlSpoty": "https://open.spotify.com/album/5I9K0u8r52jp4Y2bF8mOaz"
+    },
+    {
+        "albumName": "Lacrime",
+        "artistName": "Samurai Jay",
+        "genre": [
+            "italian hip hop",
+            "trap italiana"
+        ],
+        "releaseDate": "2020-10-22",
+        "urlSpoty": "https://open.spotify.com/album/15c6QehX6DCG353ITVkqTn"
+    },
+    {
+        "albumName": "Featuring Ty Dolla $ign",
+        "artistName": "Ty Dolla $ign",
+        "genre": [
+            "hip hop",
+            "pop",
+            "pop rap",
+            "r&b",
+            "trap",
+            "trap soul"
+        ],
+        "releaseDate": "2020-10-23",
+        "urlSpoty": "https://open.spotify.com/album/6M4Nu5UgX097dxeF2lm9P8"
+    }
+]

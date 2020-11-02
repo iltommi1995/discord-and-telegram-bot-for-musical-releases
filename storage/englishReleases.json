@@ -1,0 +1,35 @@
+[
+    {
+        "albumName": "Prova",
+        "artistName": "Tizio",
+        "genre": "rap",
+        "releaseDate": "20-10-2020",
+        "urlSpoty": "asdasdasdads"
+    },
+    {
+        "albumName": "Mally",
+        "artistName": "AM",
+        "genre": [
+            "uk drill",
+            "uk hip hop"
+        ],
+        "releaseDate": "2020-10-30",
+        "urlSpoty": "https://open.spotify.com/album/78cyvXKaRlMT34auGj8rfW"
+    },
+    {
+        "albumName": "Cruising with Jane McDonald, Vol. 2",
+        "artistName": "Jane McDonald",
+        "genre": "Unknown",
+        "releaseDate": "2020-10-30",
+        "urlSpoty": "https://open.spotify.com/album/4c0spwVfmtKUVjP4t3ojs0"
+    },
+    {
+        "albumName": "DNA",
+        "artistName": "M Huncho",
+        "genre": [
+            "uk hip hop"
+        ],
+        "releaseDate": "2020-10-30",
+        "urlSpoty": "https://open.spotify.com/album/3uzHRsdKQeAsINaS2RISBF"
+    }
+]

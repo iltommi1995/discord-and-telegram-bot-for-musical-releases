@@ -1,0 +1,85 @@
+[
+    {
+        "albumName": "Prova",
+        "artistName": "Tizio",
+        "genre": "rap",
+        "releaseDate": "20-10-2020",
+        "urlSpoty": "asdasdasdads"
+    },
+    {
+        "albumName": "Pegasus",
+        "artistName": "Trippie Redd",
+        "genre": [
+            "melodic rap",
+            "rap",
+            "trap"
+        ],
+        "releaseDate": "2020-10-30",
+        "urlSpoty": "https://open.spotify.com/album/2vMi9So8GxXiqaT2zJXbQG"
+    },
+    {
+        "albumName": "No Drama",
+        "artistName": "Becky G",
+        "genre": [
+            "dance pop",
+            "latin",
+            "latin pop",
+            "latin viral pop",
+            "pop",
+            "post-teen pop",
+            "rap latina",
+            "reggaeton",
+            "trap latino"
+        ],
+        "releaseDate": "2020-10-29",
+        "urlSpoty": "https://open.spotify.com/album/3LzwUe8NBJtLco5uK6bbGO"
+    },
+    {
+        "albumName": "Stay Down (with 6LACK & Young Thug)",
+        "artistName": "Lil Durk",
+        "genre": [
+            "chicago drill",
+            "chicago rap",
+            "drill",
+            "hip hop",
+            "rap",
+            "southern hip hop",
+            "trap"
+        ],
+        "releaseDate": "2020-10-30",
+        "urlSpoty": "https://open.spotify.com/album/1nqbigpNBTTKQGWxK6ZI7Z"
+    },
+    {
+        "albumName": "Sucks To Be You",
+        "artistName": "SAINt JHN",
+        "genre": [
+            "melodic rap",
+            "pop rap",
+            "rap"
+        ],
+        "releaseDate": "2020-10-26",
+        "urlSpoty": "https://open.spotify.com/album/0IWtiwduz6JnIP7wiR8QDv"
+    },
+    {
+        "albumName": "Dakiti",
+        "artistName": "Bad Bunny",
+        "genre": [
+            "latin",
+            "reggaeton",
+            "trap latino"
+        ],
+        "releaseDate": "2020-10-30",
+        "urlSpoty": "https://open.spotify.com/album/43dl8hP5uNN9s6YeeJA5fv"
+    },
+    {
+        "albumName": "Losses",
+        "artistName": "Lil Tjay",
+        "genre": [
+            "brooklyn drill",
+            "melodic rap",
+            "nyc rap"
+        ],
+        "releaseDate": "2020-10-30",
+        "urlSpoty": "https://open.spotify.com/album/7Lf0ye6btdu3rXvelpEC7u"
+    }
+]
