@@ -1,6 +1,6 @@
 
 <div>
-  <img src="title.gif"  />
+  <img src="https://github.com/iltommi1995/discord-and-telegram-bot-for-musical-releases/blob/main/readme_img/title.gif"  />
 </div>
 
 ## Table of contents:
@@ -19,7 +19,7 @@ If you use Spotify you will know that there is a section for the new releases wh
 
 
 <div>
-  <img src="new_releases_param.jpg" width="500"  />
+  <img src="https://github.com/iltommi1995/discord-and-telegram-bot-for-musical-releases/blob/main/readme_img/new_releases_param.jpg" width="500"  />
 </div>
 
 As you can see, one of the parameters is the country, because every country has a different "new releases" section, whose contente depends on the relevance of the releases for that country.
@@ -54,7 +54,7 @@ npm install discord.js
 ## Project structure
 
 <div>
-  <img src="project_folder.jpg" width="200"  />
+  <img src="https://github.com/iltommi1995/discord-and-telegram-bot-for-musical-releases/blob/main/readme_img/project_folder.jpg" width="200"  />
 </div>
 
 We can see that in the project folder there are:
@@ -77,7 +77,7 @@ Now we can deepen the individual parts.
 
 ### Spotify folder
 <div>
-  <img src="spotify_folder.jpg" width="150"  />
+  <img src="https://github.com/iltommi1995/discord-and-telegram-bot-for-musical-releases/blob/main/readme_img/spotify_folder.jpg" width="150"  />
 </div>
 
 The spotify folder contains only one file "spotifyApp.js".
@@ -89,7 +89,7 @@ Basically the file contains a big function which in turn contains three function
 2. getReleases --> once we have recived the token, we can begin to fetch data from Spotify api. In our case we ask for the new releases ([all documentation here](developer.spotify.com/documentation/web-api/reference/browse/get-list-new-releases/)). As we mentioned above there are some parameters we can pass. One is the country we are interested in, the other is the number of the results that we want. I setted the number to 15. For the country, we will pass the value from another function (we will see it later), therefore i setted it as a variable:
 
 <div>
-  <img src="spotify_new_releases.jpg" width="600"  />
+  <img src="https://github.com/iltommi1995/discord-and-telegram-bot-for-musical-releases/blob/main/readme_img/spotify_new_releases.jpg" width="600"  />
 </div>
 
 3. getArtist --> from the second function we recive a list of releases but i want to filter them by genre (rap in my case). Unfortunately in the data recived from the secon function, we don't have the genre of the releases. To have it, we need to query the Spotify api for the third time, asking for the datas of the single artists of the releases.
@@ -100,7 +100,7 @@ To do so we need the artist id, contained in the data returned by the second fun
 ### Storage folder
 
 <div>
-  <img src="storage_folder.jpg" width="200"  />
+  <img src="https://github.com/iltommi1995/discord-and-telegram-bot-for-musical-releases/blob/main/readme_img/storage_folder.jpg" width="200"  />
 </div>
 The storage folder contains the files in which we save the data fetched from the Spotify api (json files) and the script to read the files, check if new data are already present and if they're not add them to the files.
 <br/></br>
@@ -113,7 +113,7 @@ The difference between the two bots is that in the Discord one we have two event
 For this reason the two folders are slightly different. 
 
 <div>
-  <img src="discord_folder.jpg" width="200"  />
+  <img src="https://github.com/iltommi1995/discord-and-telegram-bot-for-musical-releases/blob/main/readme_img/discord_folder.jpg" width="200"  />
 </div>
 
 The Discord folder contains:
@@ -122,7 +122,7 @@ The Discord folder contains:
 3. The resolvers folder
 
 <div>
-  <img src="telegram_folder.jpg" width="200"  />
+  <img src="https://github.com/iltommi1995/discord-and-telegram-bot-for-musical-releases/blob/main/readme_img/telegram_folder.jpg" width="200"  />
 </div>
 
 The Telegram folder contains:
@@ -134,7 +134,7 @@ The two resolvers (helpCommand and musicCommand) are very similar in the two bot
 As you can notice, the helpCommand and the musicCommand are so similar that might seem a little bit repetitive. As i said before, the main difference is the way in which the bot responds and we might find a way to use parameters in order to reduce the similar code and use only one helpCommand and musicCommand for both the bots.
 
 <div>
-  <img src="switch_commands.jpg" width="300"  />
+  <img src="https://github.com/iltommi1995/discord-and-telegram-bot-for-musical-releases/blob/main/readme_img/switch_commands.jpg" width="300"  />
 </div>
 
 Now, let's quickly see how the bot works, we'll take for example the Telegram bot.
@@ -146,7 +146,7 @@ Let's suppose that the user message is "/help music", this is what it happens:
 3. Now we can call a resolver by comparing the first word of the command and the case that we have wrote ("helpCommand" in our case);
 4. Once we called the resolver, the case that matches the other words of the command ("music" in our case) is executed;
 <div>
-  <img src="switch_commands2.jpg" width="300"  />
+  <img src="https://github.com/iltommi1995/discord-and-telegram-bot-for-musical-releases/blob/main/readme_img/switch_commands2.jpg" width="300"  />
 </div>
 
 The "musicCommand" resolver is a little bit more complicated: we have to call the 3 async functions of the "spotyApp", one ofther the other. The important thing is that the subsequent function can start only after having received the results of the previous function as input. 
@@ -155,7 +155,7 @@ As always, for a more detailed comment check the code.
 ### StartBot.js
 
 <div>
-  <img src="start_bot.jpg" width="200"  />
+  <img src="https://github.com/iltommi1995/discord-and-telegram-bot-for-musical-releases/blob/main/readme_img/start_bot.jpg" width="200"  />
 </div>
 
 This is a simple script to start both the bots at the same time.
